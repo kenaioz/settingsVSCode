@@ -1,0 +1,50 @@
+{
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "editor.formatOnSave": true
+  },
+  "workbench.colorTheme": "Min Dark",
+  "editor.fontSize": 14,
+  "editor.tabSize": 2,
+  "editor.wordWrap": "on",
+  "editor.definitionLinkOpensInPeek": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.guides.bracketPairs": true,
+  "editor.lineHeight": 30,
+  "explorer.compactFolders": false,
+  "workbench.iconTheme": "symbols",
+  "workbench.editor.enablePreview": false,
+  "terminal.integrated.profiles.osx": {
+    "bash": {
+      "path": "bash",
+      "args": ["-l"],
+      "icon": "terminal-bash"
+    },
+    "zsh": {
+      "path": "zsh",
+      "args": ["-l"]
+    }
+  },
+  "editor.formatOnSave": true,
+  "terminal.integrated.env.osx": {},
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 10000,
+  "emmet.showAbbreviationSuggestions": false,
+  "editor.suggest.snippetsPreventQuickSuggestions": true,
+  "gitlens.graph.minimap.additionalTypes": ["stashes", "localBranches"],
+  "workbench.activityBar.location": "hidden",
+  "window.commandCenter": false,
+  "symbols.hidesExplorerArrows": false,
+  "workbench.preferredHighContrastColorTheme": "Min Dark",
+  "workbench.preferredDarkColorTheme": "Min Dark",
+  "editor.fontFamily": "JetBrains Mono",
+  "editor.minimap.renderCharacters": false,
+  "editor.minimap.enabled": false,
+  "terminal.integrated.fontFamily": "MesloLGS NF",
+  "editor.rulers": [80, 120],
+  "window.customMenuBarAltFocus": false,
+  "window.menuBarVisibility": "hidden",
+  "terminal.integrated.allowMnemonics": true,
+  "window.titleBarStyle": "custom",
+  "black-formatter.args": ["--line-length=79"]
+}
